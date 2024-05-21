@@ -11,4 +11,4 @@ include_directories(
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Добавление исполняемого файла
-add_executable(Main.exe Main.cpp)
+add_executable(Main Main.cpp)
