@@ -1,0 +1,13 @@
+{
+    "name": "C++ Launch (Windows)",
+    "type": "cppvsdbg",
+    "request": "launch",
+    "program": "Main.exe",
+    "externalConsole": true,
+    "logging": {
+      "moduleLoad": false,
+      "trace": true
+    },
+    "visualizerFile": "${workspaceFolder}/my.natvis",
+    "showDisplayString": true
+  }
