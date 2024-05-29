@@ -14,5 +14,15 @@ void QuickSort(int *array, int arrayItemsCount);
 //recusrion.c
 int sum (int* arr, int itemsCount);
 
-int* twoSum(int* nums, int numsSize, int target, int* returnSize);
+
+//leetCode.c
+int* twoSum(int* nums, int numsSize, int target, int returnSize);
 bool isPalindrome(int x);
+
+int weight1(unsigned x);
+int weight2(unsigned x);
+int weight3(unsigned x);
+
+int parity1(unsigned x);
+int parity2(unsigned x);
+int parity3(unsigned x);

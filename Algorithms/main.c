@@ -44,7 +44,7 @@ void SortingAndSelectionAlgorithms()
     if (result == -1)
     {
         printf("\nЭлемент не найден");
-        return 0;
+        return;
     }
     printf("\nМесто: %d", result + 1);
 
@@ -53,7 +53,7 @@ void SortingAndSelectionAlgorithms()
     if (result == -1)
     {
         printf("\nЭлемент не найден");
-        return 0;
+        return;
     }
     printf("\nМесто: %d", result + 1);
     
@@ -89,11 +89,31 @@ void LeetCodeAlogorithms()
     printf("\nЧисло: %d", num);
     bool result = isPalindrome(num);
     printf("\nРезультат: %d", result);
-    
 }
+
+
+void JobAlgorithms()
+{
+    weight1(3);
+    printf("\n");
+    weight2(21);
+    printf("\n");
+    weight3(7);
+    printf("\n");
+    printf("\n");
+    printf("%d ", parity1(4));    
+    printf("\n");
+    printf("%d ", parity2(12));    
+    printf("\n");
+    printf("%d ", parity3(652));    
+    printf("\n");
+}
+
+
 
 int main(int argc, char**argv)
 {
-    SortingAndSelectionAlgorithms();
-    LeetCodeAlogorithms();
+    //SortingAndSelectionAlgorithms();
+    //LeetCodeAlogorithms();
+    JobAlgorithms();
 }

@@ -1,2 +1,8 @@
 build/
-Fluids/.vs/
+Fluids/build/
+Algorithms/build/
+StringSearcher/build/
+
+Fluids/.vscode/
+Algorithms/.vscode/
+StringSearcher/.vscode/
